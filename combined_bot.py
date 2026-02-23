@@ -6,7 +6,7 @@ webhook אחד – שני בוטים לפי מספר טלפון
 התקנה: pip install flask anthropic twilio
 הפעלה:  python combined_bot.py
 """
-import os
+
 from flask import Flask, request
 from anthropic import Anthropic
 from datetime import datetime
@@ -15,15 +15,15 @@ import logging
 # ─────────────────────────────────────────────
 # 🔑 הכנס את המפתח שלך כאן
 # ─────────────────────────────────────────────
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_API_KEY = "YOUR_ANTHROPIC_API_KEY"
 # ─────────────────────────────────────────────
 
 # ─────────────────────────────────────────────
 # 📱 מספרי הטלפון – הכנס את המספרים האמיתיים
 # פורמט: "whatsapp:+972XXXXXXXXX"
 # ─────────────────────────────────────────────
-MARIK_PHONE  = "whatsapp:+972526451400"   # המספר של מריק
-HAYA_PHONE   = "whatsapp:+972586655430"   # המספר של חיה
+MARIK_PHONE  = "whatsapp:+972XXXXXXXXX"   # המספר של מריק
+HAYA_PHONE   = "whatsapp:+972XXXXXXXXX"   # המספר של חיה
 # ─────────────────────────────────────────────
 
 DAILY_CALORIE_LIMIT = 2000
