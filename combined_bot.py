@@ -26,7 +26,7 @@ MARIK_PHONE  = "whatsapp:+972526451400"   # המספר של מריק
 HAYA_PHONE   = "whatsapp:+972586655430"   # המספר של חיה
 # ─────────────────────────────────────────────
 
-DAILY_CALORIE_LIMIT = 1800
+DAILY_CALORIE_LIMIT = 2000
 
 logging.basicConfig(level=logging.INFO)
 app = Flask(__name__)
