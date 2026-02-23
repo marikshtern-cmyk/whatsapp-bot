@@ -22,8 +22,8 @@ ANTHROPIC_API_KEY = "YOUR_ANTHROPIC_API_KEY"
 # 📱 מספרי הטלפון – הכנס את המספרים האמיתיים
 # פורמט: "whatsapp:+972XXXXXXXXX"
 # ─────────────────────────────────────────────
-MARIK_PHONE  = "whatsapp:+972XXXXXXXXX"   # המספר של מריק
-HAYA_PHONE   = "whatsapp:+972XXXXXXXXX"   # המספר של חיה
+MARIK_PHONE  = "whatsapp:+972526451400"   # המספר של מריק
+HAYA_PHONE   = "whatsapp:+972586655430"   # המספר של חיה
 # ─────────────────────────────────────────────
 
 DAILY_CALORIE_LIMIT = 1800
